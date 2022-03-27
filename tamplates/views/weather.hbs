@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Weather API</title>
+   
+</head>
+<body>
+
+    <h1 style="color:dimgrey"> {{>header}}</h1>
+    <h1 style="color:dimgrey">Here is the weather API</h1>
+    <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Circle-icons-weather.svg/512px-Circle-icons-weather.svg.png" />
+
+    <br>
+    <h2 style="color:red">{{error}}</h2>
+    <div> <h3>City : {{City}} | Coordinates: {{latitude}},{{longtitude}} </h3></div>
+    <br>
+
+    <br>
+
+    <div> <h3>Humidity : {{Humidity}} | Temperture: {{Temperture}} | Chance of Rain: {{Chanceofrain}}</h3> </div>
+
+
+
+
+    <h1 style="color:dimgrey">{{>footer}}</h1>
+
+</body>
+</html>
