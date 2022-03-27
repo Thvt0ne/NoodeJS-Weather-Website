@@ -1,6 +1,7 @@
 const express = require('express')
 const AddCoordinates = require('./AppChainingCallback')
 const app = express()
+
 const path = require('path')
 const viewsPath = path.join(__dirname,"/tamplates/views") //if we did not costomise this statment , the default path for handbars will be /views
 //app.com
