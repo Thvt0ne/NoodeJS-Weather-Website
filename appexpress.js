@@ -1,7 +1,7 @@
 const express = require('express')
 const AddCoordinates = require('./AppChainingCallback')
 const app = express()
-
+const port = process.env.PORT || 3000
 const path = require('path')
 const viewsPath = path.join(__dirname,"/tamplates/views") //if we did not costomise this statment , the default path for handbars will be /views
 //app.com
@@ -65,4 +65,4 @@ app.get('*', (req, res) => {
 
 
 
-app.listen(3000, () => { console.log('Server is UP on port 3000') })
+app.listen(port, () => { console.log('Server is UP on port '+ port) })

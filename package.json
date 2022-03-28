@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "NodejsWebApp2",
   "main": "server.js",
+  "scripts": {
+    "start": "node appexpress.js"
+
+  },
   "author": {
     "name": ""
   },
